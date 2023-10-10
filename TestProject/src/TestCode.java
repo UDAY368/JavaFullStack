@@ -12,5 +12,9 @@ public class TestCode {
 			System.out.println(i);
 		}
 		
+		StringBuilder sb = new StringBuilder("I love Java"); 
+		int count = sb.append(" and SpringBoot").length();
+		System.out.println("The length of the string is "+ count);
+		
 	}
 }
